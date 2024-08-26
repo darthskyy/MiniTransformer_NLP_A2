@@ -1,0 +1,26 @@
+Namespace(batch_size=128, device='cuda', dropout=0.0, embedding_dim=64, eval_every=1000, eval_iterations=500, example=False, fix_embed=True, language='nr', log_file='pos_off.log', lr=0.001, num_epochs=2, num_heads=1, num_layers=4, save='fixed_embed.pth', seed=42, seq_length=32)
+| EPOCH 1 | 4986/49865 batches | lr 0.001 | ms/batch 15.89 | train loss 1.3419, val loss 1.2768 | train bpc 4.46 | val bpc 4.24 
+| EPOCH 1 | 9972/49865 batches | lr 0.001 | ms/batch 15.87 | train loss 1.2898, val loss 1.2311 | train bpc 4.28 | val bpc 4.09 
+| EPOCH 1 | 14958/49865 batches | lr 0.001 | ms/batch 15.12 | train loss 1.2660, val loss 1.2084 | train bpc 4.21 | val bpc 4.01 
+| EPOCH 1 | 19944/49865 batches | lr 0.001 | ms/batch 15.17 | train loss 1.2473, val loss 1.1901 | train bpc 4.14 | val bpc 3.95 
+| EPOCH 1 | 24930/49865 batches | lr 0.001 | ms/batch 15.03 | train loss 1.2376, val loss 1.1799 | train bpc 4.11 | val bpc 3.92 
+| EPOCH 1 | 29916/49865 batches | lr 0.001 | ms/batch 15.02 | train loss 1.2300, val loss 1.1793 | train bpc 4.09 | val bpc 3.92 
+| EPOCH 1 | 34902/49865 batches | lr 0.001 | ms/batch 15.02 | train loss 1.2247, val loss 1.1673 | train bpc 4.07 | val bpc 3.88 
+| EPOCH 1 | 39888/49865 batches | lr 0.001 | ms/batch 15.07 | train loss 1.2192, val loss 1.1650 | train bpc 4.05 | val bpc 3.87 
+| EPOCH 1 | 44874/49865 batches | lr 0.001 | ms/batch 14.99 | train loss 1.2106, val loss 1.1598 | train bpc 4.02 | val bpc 3.85 
+| EPOCH 1 | 49860/49865 batches | lr 0.001 | ms/batch 15.03 | train loss 1.2082, val loss 1.1587 | train bpc 4.01 | val bpc 3.85 
+| EPOCH 1 | 49864/49865 batches | lr 0.001 | ms/batch 0.01 | train loss 1.2078, val loss 1.1629 | train bpc 4.01 | val bpc 3.86 
+| end of epoch 1 | time: 846.62s
+| EPOCH 2 | 4986/49865 batches | lr 0.001 | ms/batch 15.05 | train loss 1.2013, val loss 1.1499 | train bpc 3.99 | val bpc 3.82 
+| EPOCH 2 | 9972/49865 batches | lr 0.001 | ms/batch 14.98 | train loss 1.2009, val loss 1.1504 | train bpc 3.99 | val bpc 3.82 
+| EPOCH 2 | 14958/49865 batches | lr 0.001 | ms/batch 14.85 | train loss 1.1974, val loss 1.1480 | train bpc 3.98 | val bpc 3.81 
+| EPOCH 2 | 19944/49865 batches | lr 0.001 | ms/batch 14.88 | train loss 1.1966, val loss 1.1501 | train bpc 3.98 | val bpc 3.82 
+| EPOCH 2 | 24930/49865 batches | lr 0.001 | ms/batch 14.86 | train loss 1.1931, val loss 1.1436 | train bpc 3.96 | val bpc 3.80 
+| EPOCH 2 | 29916/49865 batches | lr 0.001 | ms/batch 14.84 | train loss 1.1936, val loss 1.1448 | train bpc 3.97 | val bpc 3.80 
+| EPOCH 2 | 34902/49865 batches | lr 0.001 | ms/batch 14.84 | train loss 1.1940, val loss 1.1473 | train bpc 3.97 | val bpc 3.81 
+| EPOCH 2 | 39888/49865 batches | lr 0.001 | ms/batch 14.86 | train loss 1.1870, val loss 1.1395 | train bpc 3.94 | val bpc 3.79 
+| EPOCH 2 | 44874/49865 batches | lr 0.001 | ms/batch 14.88 | train loss 1.1875, val loss 1.1356 | train bpc 3.94 | val bpc 3.77 
+| EPOCH 2 | 49860/49865 batches | lr 0.001 | ms/batch 14.92 | train loss 1.1851, val loss 1.1396 | train bpc 3.94 | val bpc 3.79 
+| EPOCH 2 | 49864/49865 batches | lr 0.001 | ms/batch 0.01 | train loss 1.1855, val loss 1.1401 | train bpc 3.94 | val bpc 3.79 
+| end of epoch 2 | time: 829.04s
+| end of training | test loss 1.1374 | test bpc 3.78
